@@ -11,15 +11,24 @@ body {
     height: 67px;
     object-fit: cover;
     position: absolute;
+    margin: 20px 40px;
+}
+
+nav ul {
+    display:flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: flex-end;
+    margin-right: 40px;
 }
 
 nav ul li {
-    color: white;
-    list-style-type: none;
-    float: right;
-    line-height: 100px;
-    font-size: 30px;
-    text-align: center;
+        color: white;
+        list-style-type: none;
+        line-height: 100px;
+        font-size: 30px;
+        text-align: center;
+
 }
 
 
