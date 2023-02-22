@@ -42,9 +42,13 @@ li {
 }
 
 .overlay {
-    background:
-    linear-gradient rgba(20, 54, 66, 0.7);
-    z-index: 99;
+    width: 100%;
+    height: 100%;
+    rgba(20, 54, 66, 0.7);
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #heading {
@@ -56,7 +60,7 @@ li {
     height: 440px;
     width: 100%;
     color: white;
-    column-gap: 20px;
+    column-gap: 50px;
     margin-top: 40px;
     font-family: 'Lato', sans-serif;
 }
@@ -64,20 +68,18 @@ li {
 h1 {
     font-size: 70px;
     text-align: center;
-    font-style: Extrabold;
 }
 
 h2 {
     font-size: 70px;
     text-align: center;
-    font-style: ExtraBold;
 }
 
 h3 {
     font-size: 36px;
     text-align: center;
     font-weight: 100;
-    font-style: reguler;
+    font-style: normal;
 }
 
 
@@ -85,5 +87,3 @@ a {
     text-decoration: none;
     color: white;
 }
-
-
