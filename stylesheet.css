@@ -5,6 +5,7 @@
 body {
     background-image: url("image/CoffeHeader.png");
     background-size: cover;
+    border-radius: 0 0 30px 30px;
 }
 
 .logopull-left {
@@ -86,4 +87,23 @@ h3 {
 a {
     text-decoration: none;
     color: white;
+}
+
+.who img {
+    width: 335px;
+    height: 460px;
+    margin-right: 138px;
+    border-radius: 20px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.content {
+    padding: 125px 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
 }
