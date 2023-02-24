@@ -107,3 +107,51 @@ img {
     flex-direction: column;
     row-gap: 100px;
 }
+
+.who,
+.showcase,
+.hangout {
+  display: flex;
+}
+.who h1,
+.showcase h1,
+.hangout h1,
+.find h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  text-align: left;
+  color: rgba(15, 139, 141, 1);
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-color: rgba(236, 154, 41, 1);
+  background-color: white;
+}
+.who p,
+.showcase p,
+.hangout p
+{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+}
+.who img {
+  width: 335px;
+  height: 460px;
+  margin-right: 138px;
+  border-radius: 20px;
+}
+.showcase .text {
+  margin-right: 138px;
+}
+.showcase img {
+  width: 335px;
+  border-radius: 20px;
+}
+.hangout img {
+  width: 453px;
+  height: 453px;
+  border-radius: 20px;
+  margin-right: 138px;
+}
