@@ -137,14 +137,15 @@ img {
   text-align: left;
 }
 
-.showcase .text {
+.showcase text{
   margin-right: 138px;
 }
-.showcase img {
+.showcase img{
   width: 335px;
   border-radius: 20px;
 }
-.hangout img {
+
+.hangout img{
   width: 453px;
   height: 453px;
   border-radius: 20px;
