@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 body {
     background-image: url("image/CoffeHeader.png");
     background-size: cover;
@@ -78,13 +82,6 @@ h3 {
     font-weight: 100;
     font-style: normal;
 }
-
-h1, 
-h2, 
-h3 {
-    margin: 0;
-}
-
 
 a {
     text-decoration: none;
@@ -222,6 +219,7 @@ footer {
     background-color: rgba(20, 54, 66, 1);
     display: flex;
     padding: 80px 138px;
+    color: white;
     column-gap: 139px;
     border-radius: 30px 30px 0 0;
   }
