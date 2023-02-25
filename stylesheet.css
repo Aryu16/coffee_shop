@@ -1,16 +1,12 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 body {
-    background-image: url("image/CoffeHeader.png");
-    background-size: cover;
-    border-radius: 0 0 30px 30px;
-}
-
-.logopull-left {
-    margin: 20px 40px;
-
+    /* background-image: url("image/CoffeHeader.png");
+    background-size: cover; */
+    /* border-radius: 0 0 30px 30px; */
 }
 
 .logo img {
@@ -18,12 +14,28 @@ body {
     object-fit: cover;
 }
 
-nav ul {
+header {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 500px;
+    width: 100%;
+    z-index: 11;
+}
+
+nav .menu {
     display: flex;
     flex-direction: row;
     column-gap: 30px;
     justify-content: flex-end;
-    margin-right: 40px;
 }
 
 nav ul li {
@@ -41,18 +53,25 @@ li {
     font-size: 15px;
 }
 
+.backgroundcolor div {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
 .overlay {
-    width: 100%;
+
+    /* width: 100%;
     height: 50%;
-    background: rgba(20, 54, 66, 0.7);
-    z-index: 10;
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 0 0 30px 30px;
+     */
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 10;
 }
 
 #heading {
+    z-index: 9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,8 +81,11 @@ li {
     width: 100%;
     color: white;
     column-gap: 50px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     font-family: 'Lato';
+    background-image: url("image/CoffeHeader.png");
+    background-size: cover;
+    border-radius: 0 0 30px 30px;
 }
 
 h1 {
@@ -104,6 +126,8 @@ img {
     padding: 125px 250px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     row-gap: 100px;
     background-color: #f5f5f5;
     font-family: 'Lato';
@@ -113,6 +137,10 @@ img {
 .showcase,
 .hangout {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 925px;
 }
 
 .who h4,
@@ -124,9 +152,17 @@ img {
     line-height: 58px;
     text-align: left;
     color: rgba(15, 139, 141, 1);
-    margin: 0;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: rgba(236, 154, 41, 1);
+    padding-bottom: 20px;
+    border-bottom: rgba(236, 154, 41, 1) solid 5px;
+}
+
+.text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 .who p,
@@ -158,6 +194,8 @@ img {
 .find {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     row-gap: 50px;
 }
 
@@ -176,7 +214,8 @@ span {
 .image2 {
     display: flex;
     flex-direction: row;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     column-gap: 110px;
     width: 237px;
 }
@@ -184,8 +223,10 @@ span {
 .contactus {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    row-gap: 25px;
 }
 
 .contactus 

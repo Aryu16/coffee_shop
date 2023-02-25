@@ -3,40 +3,71 @@ body {
     font-family: 'lato';
 }
 
-header {
-    background-color: rgba(15, 139, 141, 1);
-    border-radius: 10px 10px 0 0;
+body {
+    margin: 0;
+    font-family: "Lato";
   }
- 
-.logo img {
-    height: 67px;
-    object-fit: cover;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
-    justify-content: flex-end;
-    margin-right: 40px;
-}
-
-nav ul li {
-    color: white;
-    list-style-type: none;
-    line-height: 100px;
-    font-size: 30px;
+  .menu {
     text-align: center;
-}
-
-
-
-li {
-    list-style: none;
-    font-size: 15px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    padding: 100px 0;
+  }
+  .menu h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0f8b8d;
+    margin: 0;
+  }
+  .menu p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #143642;
+    margin: 0;
+  }
+  
+  .row1,
+  .row2 {
+    display: flex;
+    column-gap: 119px;
+  }
+  .box {
+    background-image: url(image/Coffee\ background.png);
+    height: 216px;
+    aspect-ratio: 1;
+    border-radius: 20px;
+  }
+  .box h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #f9fbfe;
+    margin: 0;
+    padding: 20px 0 10px 0;
+  }
+  
+  .box p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #f9fbfe;
+    margin: 0;
+  }
+  
+  .box img {
+    width: 186px;
+    height: auto;
+  }
