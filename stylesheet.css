@@ -192,7 +192,7 @@ span {
     text-align: center;
 }
 
-.contactus, 
+.contactus 
 h4 {
     font-size: 48px;
     font-weight: 800;
@@ -200,7 +200,7 @@ h4 {
     color: rgba(15, 139, 141, 1);
 }
 
-.contactus, 
+.contactus
 p {
     font-size: 24px;
 }
