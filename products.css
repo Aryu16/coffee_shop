@@ -3,10 +3,6 @@ body {
     font-family: 'lato';
 }
 
-body {
-    margin: 0;
-    font-family: "Lato";
-  }
   .menu {
     text-align: center;
     display: flex;
