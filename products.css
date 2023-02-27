@@ -11,59 +11,107 @@ body {
     align-items: center;
     padding: 100px 0;
   }
-  .menu h1 {
+
+  #heading h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
     line-height: 58px;
     color: #0f8b8d;
-    margin: 0;
+    font-size: 48px;
   }
-  .menu p {
-    font-family: "Lato";
+
+  #heading p {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #143642;
-    margin: 0;
   }
+
+
+
+  .card {
+    width: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    perspective: 2500px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cover-image {
+    width: 130%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: -30px;
+  }
+  
+  .wrappers {
+    transition: all 0.3s;
+    position: absolute;
+    max-height: var(--card-height);
+    z-index: -1;
+    background-color: #4aa1a2;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .card:hover .wrappers {
+    filter: blur(2px);
+  }
+  
+  .details {
+    width: 100%;
+    transition: all 0.3s;
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+  }
+  
+  .card:hover .details {
+    padding-top: 0;
+    transform: translate3d(0%, 200px, 100px);
+  }
+  
+  .character {
+    width: 90%;
+    transition: all 0.3s;
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+  }
+  
+  .card:hover .character {
+    opacity: 1;
+    width: 100%;
+    transform: translate3d(0%, -30%, 200px);
+  }
+  
+  h2 {
+    margin-bottom: -10px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+ 
   
   .row1,
   .row2 {
     display: flex;
     column-gap: 119px;
   }
-  .box {
-    background-image: url(image/Coffee\ background.png);
+
+  .card {
     height: 216px;
     aspect-ratio: 1;
     border-radius: 20px;
   }
-  .box h2 {
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #f9fbfe;
-    margin: 0;
-    padding: 20px 0 10px 0;
-  }
   
-  .box p {
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #f9fbfe;
-    margin: 0;
-  }
-  
-  .box img {
-    width: 186px;
-    height: auto;
-  }
