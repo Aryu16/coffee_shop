@@ -117,11 +117,6 @@ a {
     border-radius: 20px;
 }
 
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
 .content {
     padding: 125px 250px;
     display: flex;
