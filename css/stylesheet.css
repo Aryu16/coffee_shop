@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-body {
-    /* background-image: url("image/CoffeHeader.png");
-    background-size: cover; */
-    /* border-radius: 0 0 30px 30px; */
-}
-
 .logo img {
     height: 67px;
     object-fit: cover;
@@ -26,9 +20,10 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 500px;
+    column-gap: 600px;
     width: 100%;
     z-index: 11;
+    background: rgba(20, 54, 66, 0.7);
 }
 
 nav .menu {
