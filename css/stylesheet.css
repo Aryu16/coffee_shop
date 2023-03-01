@@ -53,21 +53,16 @@ li {
     font-size: 15px;
 }
 
-.backgroundcolor div {
-    /* position: absolute;
-    top: 0;
-    left: 0; */
-}
 .overlay {
 
-    /* width: 100%;
-    height: 50%;
+    width: 100%;
+    height: 440px;
     position: absolute;
     top: 0;
     left: 0;
-     */
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(20, 54, 66, 0.7);
     z-index: 10;
+    border-radius: 0 0 30px 30px;
 }
 
 #heading {
@@ -81,9 +76,8 @@ li {
     width: 100%;
     color: white;
     column-gap: 50px;
-    /* margin-top: 40px; */
     font-family: 'Lato';
-    background-image: url("image/CoffeHeader.png");
+    background-image: url("../image/CoffeHeader.png");
     background-size: cover;
     border-radius: 0 0 30px 30px;
 }
